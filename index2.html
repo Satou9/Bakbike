@@ -3,42 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style3.css">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <title>BakBike</title>
+    <title>Cargobike Slider</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_log">Delivery</a>
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_item">
-                    <li class="nav_item"><a href="#home" class="nav_link"></a>Home</li>
-                    <li class="nav_item"><a href="#home" class="nav_link"></a>Producten</li>
-                    <li class="nav_item"><a href="#home" class="nav_link"></a>Contact</li>
-                    <li class="nav_item"><a href="#home" class="nav_link"></a>Sign in</li>
-                </ul>
-            </div>
 
-            <div class="id_toggle"  id="nav_toggle">
-                <i class='bx bx-grid-alt'></i>
-            </div>
-            
-            <a href="#" class="button button_header">Koop</a>
-        
-        </nav>
+   
 
+
+
+    <ul id="autoWidth" class="cs-hidden">
+
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 1</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
+
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 1</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
+   
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 1</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
     
-    </header>
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 1</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
+      </ul>
 
-    <main class="main">
-
-    </main>
-
-    <footer class="footer section">
-
-    </footer>
-    <script src=""></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+      $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+</script>
 </body>
 </html>

@@ -56,6 +56,7 @@ section {
     margin: auto;
     width: 100%;
 
+
 }
 
 header {
@@ -64,6 +65,8 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
+
+
 }
 
 .nav {
@@ -86,6 +89,7 @@ header {
     align-items: center;
     column-gap: 1.5rem;
     padding: 20px 0;
+
 }
 
 .nav-link {
@@ -171,7 +175,7 @@ header {
 
 .home{
     min-height: 640px;
-    background: #FFFFE0;
+    background: ;
 }
 
 .home-img{
@@ -189,6 +193,8 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    float: left;
+
 }
 
 .home-text h3 {
@@ -376,6 +382,57 @@ header {
     clip-path: circle(144% at 50% 50%);
 }
 
+.image-with-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 30px; /* Add margin at the bottom for spacing */
+}
+
+.image-container {
+    flex: 0 0 auto; /* Fix size for image container */
+    margin-right: 5px; /* Add spacing between image and content */
+}
+
+.image-container img {
+    width: 500px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin-left: 50px;
+}
+
+.content {
+    flex: 1; /* Take remaining space */
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--orange);
+
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: var(--lime); /* Darker shade on hover */
+}
+
+
 
 body{
     margin: 0;
@@ -475,5 +532,60 @@ a{
 .border{
     width: 120px;
     height: 5px;
+    background-color: ;
+    margin: 26px auto;
      
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonials{
+    background: #FFF;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: var(--orange);
+    margin-bottom: 20px;
+
+}
+
+@media  screen and(max-width:960px) {
+.col{
+    flex: 100%;
+    max-width: 80%;
+}
+    
+}
+
+@media  screen and(max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+        
+    }

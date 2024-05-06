@@ -1,129 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BakBike</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Box Icons-->
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
 
-            <a class="logo" href="index.html">
-              <img src="images/bakbike_logo.png" alt="Logo">
-            </a>
-         
-        <a class="navbar-brand" href="#">BakBike</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">contact</a>
-
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                producten
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Cargofietsen</a>
-                <a class="dropdown-item" href="#">Services</a>
-                <a class="dropdown-item" href="#">Extra's</a>
-              </div>
-            </li>
-          </ul>
-          <a class="navbar-brand" href="#">Log in</a>
-
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">zoek</button>
-          </form>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="#" class="logo">BakBike</a>
+            <div class="navbar">
+                <li><a href="#" class="nav-link">About us</a></li>
+                <li><a href="#" class="nav-link">Service</a></li>
+                <li><a href="#" class="nav-link">Producten</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+                <a href="#" class="register-btn">Register</a>
+            </div>
+            <!--Menu Icon-->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
-      </nav>
+    </header> 
+<!--Home-->
+  <section class="home" id="home">
+    <div class="home-data container">
+        <div class="home-text">
+            <h3>Wie wij zijn</h3>
+            <h2>BakBike: een milieuvriendelijk cargofietsbedrijf</h2>
+            <div class="home-btns">
+                <a href="#" class="book-btn btn">Koop nu</a>
+                <a href="#" class="explore-btn btn">Wie zijn we?</a>
+            </div>
+                <div class="home-img">
+                    <img src="" alt="">
+                </div>
+
+         <div class="contact-info">
+                 <div class="contact-info-box"> 
+                    <i class="bx bxs-map"></i>   
+                    <span>2418 E 10th Street, 2000 Antwerpen</span>
+                </div>
+                    
+                <div class="contact-info-box">
+                    <i class="bx bxs-phone bx-rotate-270"></i>
+                    <span>+32 476 67 82 23</span>
+                </div>
+
+                <div class="contact-info-box">
+                    <i class="bx bxs-envelope"></i>
+                    <span></span>
+                </div>
+            </div>
+        </div> 
+                 <!-- 2nd Home Image For Mobile version -->
+                 <div class="home-bg">
+                    <img src="images/Electric Cargo Bikes _ Bunch Bikes.jpg" alt="" >
+                 </div> 
+    </div>
+  </section>
 
 
-      <header class="header">
-        <h1>BakBike</h1>
-        <p>jouw lading onze passie</p>
-      </header>
-
-      <main class="who">
-        <section class="text">
-        <h1>Who are we?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laboriosam repudiandae, doloremque excepturi, accusantium officia adipisci animi rem unde ullam deleniti quia natus. Ullam autem labore quae praesentium accusamus deserunt?</p>
-        </section>
-        <image src="" alt="who are we?">
-      </main>
-
-      <h1 id="products">Products</h1>
-
-      <!---BOX 1-->
-      <div class="categories-container">
-        <div class="box box1">
-            <img src="images/Blushhome.jpg" alt="">
-            <h3>Bike 1</h3>
-            <span>price:</span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
-       </div>
-
-
-<!---BOX 2-->
-   
-        <div class="box box2">
-            <img src="images/cupid.jpg" alt="">
-            <h3>Bike 2</h3>
-            <span>price: </span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
+  <section class="about container" id="about">
+    <!-- About Text -->
+    <div class="about-text">
+        <!-- Heading -->
+        <div>
+        <h2 class="heading">About Us</h2>
+        <h1>Jouw lading onze passie!!</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ad voluptatum distinctio, optio magni quae quasi itaque mollitia possimus fuga, est quam dolorem aliquam, ipsum inventore esse provident facilis neque?</p>
+        <a href="#" class="learn-more">
+            <span>Learn More</span>
+            <i class="bx bx-right-arrow-alt"></i>
+        </a>
         </div>
+        <img src="" alt="">
+    </div>
+  </section>
 
-<!---BOX 3-->
+
+
+    <ul id="autoWidth" class="cs-hidden">
+
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 1</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
+
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 2</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <p>Lorem ipsum dolor</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
    
-        <div class="box box3">
-            <img src="images/shimmer.jpg" alt="">
-            <h3>Bike 3</h3>
-            <span>price: </span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
-        </div>
-       </div>
-</section>
-
-
-</section>
-
-
-   
-    <footer>
-
-      <div class="OverOns">
-              <h3>Over Ons</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class ="contact">
-              <h3>Contact</h3>
-              <p>Email:ll info@example.com</p>
-              <p>Telefoon: +1234567890</p>
-      </div>
-              <h3>Volg Ons</h3>
-              <ul>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Instagram</a></li>
-              </ul>
-
-          <p>&copy; 2024 BakBike. Alle rechten voorbehouden.</p>
-  </footer>
-  
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 3</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
     
-	<script src="index.js"></script>
-  </body>
+        <li class="item-a">
+            <div class="product-box">
+                <a href="#">
+                    <strong>Bike 4</strong>
+                    <img src="images/product1.avif" alt="bike 1">
+                    <div class="buy-price">
+                        <p>Price: 600</p>
+                        <a href="#" class="buy-btn">buy</a>
+                    </div>
+                </a>
+            </div> 
+        </li>
+      </ul>
 
+      <!--Services-->
+      <!--Testimonials-->
+
+      <div class="testimonials">
+        <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="images/empty-profile.jpg" alt="">
+                        <div class="name">Name 1</div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
+                        
+                    </div>
+                </div>
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="images/empty-profile.jpg" alt="">
+                            <div class="name">Name 2</div>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
+                            
+                        </div>
+                    </div>
+                        <div class="col">
+                            <div class="testimonial">
+                                <img src="images/empty-profile.jpg" alt="">
+                                <div class="name">Name 3</div>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+        
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
+                                
+                            </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container2">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+
+
+                        </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+
+                        </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                        <ul>
+                            <li><a href="#">Bakbikes</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">accesoires</a></li>
+
+                        </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class='bx bxl-tiktok'></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+      $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+</script>
+
+
+ 
+
+    <script src="main.js"></script>
+
+</body>
 </html>

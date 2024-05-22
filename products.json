@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Bike",
+        "price": 20,
+        "image": "images/product1.avif"
+    },
+    {
+        "id": 2,
+        "name":" LD02 ",
+        "price": 25,
+        "image": "images/product2.avif"
+    },
+    {
+        "id": 3,
+        "name":" LD03 ",
+        "price": 29,
+        "image": "images/product3.avif"
+    },
+    {
+        "id": 4,
+        "name":" LD04 ",
+        "price": 20,
+        "image": "images/product4.avif"
+    },
+    {
+        "id": 5,
+        "name":" LD05 ",
+        "price": 30,
+        "image": "images/product5.avif"
+    },
+    {
+        "id": 6,
+        "name":" LD06 ",
+        "price": 20,
+        "image": "images/product2.avif"
+    },
+    {
+        "id": 7,
+        "name":" LD07 ",
+        "price": 20,
+        "image": "images/product2.avif"
+    },
+    {
+        "id": 8,
+        "name":" LD08 ",
+        "price": 20,
+        "image": "images/product3.avif"
+    }
+
+]

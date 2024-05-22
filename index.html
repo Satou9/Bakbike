@@ -20,8 +20,8 @@
             <div class="navbar">
                 <li><a href="#" class="nav-link">About us</a></li>
                 <li><a href="#" class="nav-link">Service</a></li>
-                <li><a href="#" class="nav-link">Producten</a></li>
-                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="product.html" class="nav-link">Producten</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
                 <a href="#" class="register-btn">Register</a>
             </div>
             <!--Menu Icon-->
@@ -59,7 +59,7 @@
 
                 <div class="contact-info-box">
                     <i class="bx bxs-envelope"></i>
-                    <span></span>
+                    <span>BakBikecontact@gmail.com</span>
                 </div>
             </div>
         </div> 
@@ -78,8 +78,11 @@
         <div>
         <h2 class="heading">About Us</h2>
         <h1>Jouw lading onze passie!!</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ad voluptatum distinctio, optio magni quae quasi itaque mollitia possimus fuga, est quam dolorem aliquam, ipsum inventore esse provident facilis neque?</p>
-        <a href="#" class="learn-more">
+        <p>Welkom bij BakBike, uw vertrouwde partner voor milieuvriendelijke cargofietsen. 
+            Bij BakBike geloven we in een groenere toekomst en dragen we hieraan bij met onze innovatieve en duurzame transportoplossingen. 
+            Onze cargofietsen zijn ontworpen om efficiënt, praktisch en milieuvriendelijk te zijn, waardoor ze de perfecte keuze zijn voor zowel particulieren als bedrijven die hun ecologische voetafdruk willen verkleinen. 
+        </p>
+        <a href="Aboutus.html" class="learn-more">
             <span>Learn More</span>
             <i class="bx bx-right-arrow-alt"></i>
         </a>
@@ -90,62 +93,74 @@
 
 
 
-    <ul id="autoWidth" class="cs-hidden">
+  <ul id="autoWidth" class="cs-hidden">
 
-        <li class="item-a">
-            <div class="product-box">
-                <a href="#">
-                    <strong>Bike 1</strong>
-                    <img src="images/product1.avif" alt="bike 1">
-                    <div class="buy-price">
-                        <p>Price: 600</p>
-                        <a href="#" class="buy-btn">buy</a>
-                    </div>
-                </a>
-            </div> 
-        </li>
+    <li class="item-a">
+        <div class="product-box">
+            <a href="#">
+                <strong>Bike 1</strong>
+                <img src="images/product1.avif" alt="bike 1">
+                <div class="buy-price">
+                    <p>Price: 600</p>
+                    <a href="product.html" class="buy-btn">Koop</a>
+                </div>
+            </a>
+        </div> 
+    </li>
 
-        <li class="item-a">
-            <div class="product-box">
-                <a href="#">
-                    <strong>Bike 2</strong>
-                    <img src="images/product1.avif" alt="bike 1">
-                    <div class="buy-price">
-                        <p>Price: 600</p>
-                        <p>Lorem ipsum dolor</p>
-                        <a href="#" class="buy-btn">buy</a>
-                    </div>
-                </a>
-            </div> 
-        </li>
-   
-        <li class="item-a">
-            <div class="product-box">
-                <a href="#">
-                    <strong>Bike 3</strong>
-                    <img src="images/product1.avif" alt="bike 1">
-                    <div class="buy-price">
-                        <p>Price: 600</p>
-                        <a href="#" class="buy-btn">buy</a>
-                    </div>
-                </a>
-            </div> 
-        </li>
-    
-        <li class="item-a">
-            <div class="product-box">
-                <a href="#">
-                    <strong>Bike 4</strong>
-                    <img src="images/product1.avif" alt="bike 1">
-                    <div class="buy-price">
-                        <p>Price: 600</p>
-                        <a href="#" class="buy-btn">buy</a>
-                    </div>
-                </a>
-            </div> 
-        </li>
-      </ul>
+    <li class="item-a">
+        <div class="product-box">
+            <a href="#">
+                <strong>Bike 1</strong>
+                <img src="images/product2.avif" alt="bike 1">
+                <div class="buy-price">
+                    <p>Price: 600</p>
+                    <a href="product.html" class="buy-btn">Koop</a>
+                </div>
+            </a>
+        </div> 
+    </li>
 
+    <li class="item-a">
+        <div class="product-box">
+            <a href="#">
+                <strong>Bike 1</strong>
+                <img src="images/product3.avif" alt="bike 1">
+                <div class="buy-price">
+                    <p>Price: 600</p>
+                    <a href="product.html" class="buy-btn">Koop</a>
+                </div>
+            </a>
+        </div> 
+    </li>
+
+    <li class="item-a">
+        <div class="product-box">
+            <a href="#">
+                <strong>Bike 1</strong>
+                <img src="images/product5.avif" alt="bike 1">
+                <div class="buy-price">
+                    <p>Price: 600</p>
+                    <a href="product.html" class="buy-btn">Koop</a>
+                </div>
+            </a>
+        </div> 
+    </li>
+  </ul>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+  $(document).ready(function() {
+$('#autoWidth').lightSlider({
+    autoWidth:true,
+    loop:true,
+    onSliderLoad: function() {
+        $('#autoWidth').removeClass('cS-hidden');
+    } 
+});  
+});
+</script>
       <!--Services-->
       <!--Testimonials-->
 
@@ -157,7 +172,7 @@
                 <div class="col">
                     <div class="testimonial">
                         <img src="images/empty-profile.jpg" alt="">
-                        <div class="name">Name 1</div>
+                        <div class="name">Lisa V.</div>
                         <div class="stars">
                             <i class='bx bxs-star'></i>
                             <i class='bx bxs-star'></i>
@@ -165,15 +180,17 @@
                             <i class='bx bxs-star'></i>
                             <i class='bx bx-star'></i>
                         </div>
+                        <p>"Met BakBike heb ik eindelijk een milieuvriendelijke manier gevonden om mijn boodschappen te doen. De fiets is robuust en rijdt heerlijk soepel!" - Lisa V.
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
+                        </p>
+
                         
                     </div>
                 </div>
                     <div class="col">
                         <div class="testimonial">
                             <img src="images/empty-profile.jpg" alt="">
-                            <div class="name">Name 2</div>
+                            <div class="name">Marc S.</div>
                             <div class="stars">
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
@@ -181,15 +198,15 @@
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star-half' ></i>
                             </div>
-    
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
-                            
+                            <p>"Als klein bedrijf hebben we de cargofiets van BakBike dagelijks in gebruik. Hij is perfect voor het leveren van onze producten in de stad en helpt ons onze duurzaamheidsdoelen te bereiken." - Marc S.
+
+                            </p>                            
                         </div>
                     </div>
                         <div class="col">
                             <div class="testimonial">
                                 <img src="images/empty-profile.jpg" alt="">
-                                <div class="name">Name 3</div>
+                                <div class="name">Emma K.</div>
                                 <div class="stars">
                                     <i class='bx bxs-star'></i>
                                     <i class='bx bxs-star'></i>
@@ -197,8 +214,10 @@
                                     <i class='bx bxs-star'></i>
                                     <i class='bx bxs-star'></i>
                                 </div>
+                                <p>"De service van BakBike is geweldig! De fiets werd snel geleverd en de kwaliteit overtreft al mijn verwachtingen. Een echte aanrader voor iedereen die groen wil gaan." - Emma K.
+
+                                </p>
         
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, fugiat? Aperiam, aliquid nulla! At illo harum minus possimus, porro vel pariatur suscipit nesciunt mollitia sed maiores voluptatem officia recusandae debitis!</p>
                                 
                             </div>
                   </div>
@@ -253,26 +272,6 @@
       </div>
 
 
-
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
-<script>
-      $(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
-  });
-</script>
-
-
- 
-
-    <script src="main.js"></script>
 
 </body>
 </html>

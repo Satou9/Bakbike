@@ -1,16 +1,11 @@
-// menu open close
-//let menu = document.querySelector('.menu-icon')
+ // menu open close
+let menu = document.querySelector('.menu-icon');
+let navbar = document.querySelector('.navbar')
 
-//menu.onclick = () =>{
-   // menu.classList.toggle('move');
-//}
 
-$(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
-  });
+menu.onclick = () =>{
+   menu.classList.toggle('move');
+   navbar.classList.toggle('open-menu');
+
+}
+

@@ -3,49 +3,43 @@
         "id": 1,
         "name":" CargoEbike",
         "price": 3899,
-        "image": "images/product1.avif"
+        "image": "images/cargo_e_bike.png"
     },
     {
         "id": 2,
-        "name":" CargoFamily ",
+        "name":" CargoFamily Plus ",
         "price": 4999,
-        "image": "images/product2.avif"
+        "image": "images/cargo_family_Plus.png"
     },
     {
         "id": 3,
         "name":" CargoLife ",
         "price": 5999,
-        "image": "images/product3.avif"
+        "image": "images/cargo_life.png"
     },
     {
         "id": 4,
         "name":" CargoSport ",
         "price": 3899,
-        "image": "images/product4.avif"
+        "image": "images/cargo_sport.png"
     },
     {
         "id": 5,
-        "name":" FamilyCargo ",
+        "name":" CargoFamily ",
         "price": 6899,
-        "image": "images/product5.avif"
+        "image": "images/family_cargo.png"
     },
     {
         "id": 6,
         "name":" CargoCompact ",
         "price": 2999,
-        "image": "images/product2.avif"
+        "image": "images/cargo_compact.png"
     },
     {
         "id": 7,
-        "name":" LD07 ",
-        "price": 20,
-        "image": "images/product2.avif"
-    },
-    {
-        "id": 8,
-        "name":" LD08 ",
-        "price": 7999,
-        "image": "images/product3.avif"
+        "name":" CargoCover ",
+        "price": 3999,
+        "image": "images/cargo_cover.png"
     }
 
 ]

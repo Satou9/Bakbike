@@ -141,4 +141,5 @@ const initApp = () => {
         }
     })
 }
+
 initApp();

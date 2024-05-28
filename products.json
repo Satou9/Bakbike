@@ -2,44 +2,74 @@
     {
         "id": 1,
         "name":" CargoEbike",
-        "price": 3899,
+        "price": 4299.99,
         "image": "images/cargo_e_bike.png"
     },
     {
         "id": 2,
         "name":" CargoFamily Plus ",
-        "price": 4999,
+        "price": 4999.99,
         "image": "images/cargo_family_Plus.png"
     },
     {
         "id": 3,
         "name":" CargoLife ",
-        "price": 5999,
+        "price": 5499.99,
         "image": "images/cargo_life.png"
     },
     {
         "id": 4,
         "name":" CargoSport ",
-        "price": 3899,
+        "price": 5999.99,
         "image": "images/cargo_sport.png"
     },
     {
         "id": 5,
         "name":" CargoFamily ",
-        "price": 6899,
+        "price": 6499.99,
         "image": "images/family_cargo.png"
     },
     {
         "id": 6,
         "name":" CargoCompact ",
-        "price": 2999,
+        "price": 3499.99,
         "image": "images/cargo_compact.png"
     },
     {
         "id": 7,
         "name":" CargoCover ",
-        "price": 3999,
+        "price": 3899.99,
         "image": "images/cargo_cover.png"
+    },
+    {
+        "id": 8,
+        "name":" CargoExport ",
+        "price": 4899.99,
+        "image": "images/cargo_life.png"
+    },
+    {
+        "id": 7,
+        "name":" Organizer-Set ",
+        "price": 99.99,
+        "image": "images/acc1.avif"
+    },
+    {
+        "id": 7,
+        "name":" Vario-Soft-Set ",
+        "price": 89.99,
+        "image": "images/acc2.avif"
+    },
+    {
+        "id": 7,
+        "name":" Ergonomic child seat ",
+        "price": 169.99,
+        "image": "images/acc3.avif"
+    },
+    {
+        "id": 7,
+        "name":" All-Weather-Top      ",
+        "price": 299.99,
+        "image": "images/acc5.avif"
     }
 
 ]

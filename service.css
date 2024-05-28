@@ -27,8 +27,9 @@ header .container {
 
 .logo h1 {
     margin: 0;
-    color: #FACD39;
+    color: #F9B73B ;
     text-decoration: none;
+    font-weight: 800;
 }
 
 a{
